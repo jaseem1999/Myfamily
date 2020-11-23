@@ -1,0 +1,72 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: seashell;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+    background-color: white;
+    color: white;
+    border-radius: 0;
+    border: 0;
+}
+.title {
+    position: relative;
+    bottom: 35px;
+    left: 75px;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgb(245, 162, 8) ;
+}
+#logo-img img {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.row {
+    padding: 25px;
+}
+#Kathija, #Nafeesa {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    box-shadow: 0 0 5px black;
+    overflow: hidden;
+  }
+  #Kathija:hover, #Nafeesa:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  
+  #Kathija {
+    background: url('img/family.jpg') no-repeat;
+    background-position: center;
+  }
+  #Nafeesa {
+    background: url('img/family.jpg') no-repeat;
+    background-position: center;
+  }
+  
+  #Kathija span, #Nafeesa span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px  rgb(19, 5, 70) ;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid rgb(245, 235, 235);
+    background-color: white;
+    color:rgb(230, 213, 213);
+    opacity: .8;
+    
+  }
+  
+

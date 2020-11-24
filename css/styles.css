@@ -68,5 +68,19 @@ body {
     opacity: .8;
     
   }
+  .panel-footer {
+    width: 100%;
+    height: 850px;
+    
+    background-image: url(img/my-family-essay-for-class-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   
+    color: black;
+  }
+  .c {
+    font-weight: bold;
+    font-size: medium;
+  }
 
